@@ -114,7 +114,7 @@ We may update this Privacy Policy from time to time. We will notify You of any m
 You are advised to review this Privacy Policy periodically. Changes are effective when posted.
 
 The current version of this Privacy Policy is always available at:  
-**https://www.github.com/[placeholder]**
+**https://lifthit.sekava.dev/files/privacy_policy_en.html**
 
 ---
 
