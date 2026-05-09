@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LiftHit — Log your powerlifting progress</title>
+  <meta name="description" content="LiftHit is a focused 1RM tracker for powerlifters. Log your lifts, plan percentage-based sets, and watch your strength climb.">
+  <link rel="icon" href="content/icon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-950 text-neutral-100 antialiased font-sans selection:bg-fuchsia-500/30 selection:text-white">
+
+  <header class="relative overflow-hidden">
+    <div aria-hidden="true" class="absolute inset-0 -z-10">
+      <div class="absolute -top-40 -left-40 h-[40rem] w-[40rem] rounded-full bg-fuchsia-600/30 blur-3xl"></div>
+      <div class="absolute -top-20 -right-40 h-[40rem] w-[40rem] rounded-full bg-indigo-600/30 blur-3xl"></div>
+    </div>
+
+    <div class="mx-auto max-w-5xl px-6 pt-12 pb-24 sm:pt-20 sm:pb-32">
+      <div class="flex items-center gap-4">
+        <img src="content/icon.png" alt="LiftHit icon" class="h-14 w-14 rounded-2xl shadow-lg shadow-fuchsia-500/30 sm:h-16 sm:w-16">
+        <span class="text-2xl font-bold tracking-tight sm:text-3xl">LiftHit</span>
+      </div>
+
+      <h1 class="mt-12 text-4xl font-bold tracking-tight sm:text-6xl">
+        Log your powerlifting<br>
+        <span class="bg-gradient-to-br from-fuchsia-400 to-indigo-400 bg-clip-text text-transparent">progress.</span>
+      </h1>
+
+      <p class="mt-6 max-w-2xl text-lg text-neutral-300 sm:text-xl">
+        The powerlifting calculator that lives on your screen. Log your 1RM, plan your sets by percentage, track your progress. Simple and fast.
+      </p>
+
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="#support" class="inline-flex items-center justify-center rounded-full bg-gradient-to-br from-fuchsia-500 to-indigo-500 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-fuchsia-500/30 transition hover:opacity-95">
+          Get support
+        </a>
+        <a href="#features" class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-base font-semibold text-neutral-100 transition hover:bg-white/5">
+          See features
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section id="features" class="mx-auto max-w-6xl space-y-24 px-6 py-20 sm:space-y-32 sm:py-28">
+
+    <div class="grid items-center gap-12 md:grid-cols-2">
+      <div class="md:order-2">
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Built around your lifts</h2>
+        <p class="mt-6 text-lg text-neutral-300">
+          Deadlift, squat, bench, press — or add your own. Hide what you don't train. Keep only what matters. LiftHit tracks your sets and keeps your one-rep max up to date. You just lift.
+        </p>
+      </div>
+      <div class="md:order-1 flex justify-center">
+        <img src="content/1.PNG" alt="LiftHit exercise list" loading="lazy" class="w-full max-w-xs rounded-[2.5rem] ring-1 ring-white/10 shadow-2xl shadow-fuchsia-500/20">
+      </div>
+    </div>
+
+    <div class="grid items-center gap-12 md:grid-cols-2">
+      <div>
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Train by the numbers</h2>
+        <p class="mt-6 text-lg text-neutral-300">
+          Dial in your intensity. Percentage-based sets from 50% to 105%, calculated instantly. No guesswork, no math.
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <img src="content/2.PNG" alt="LiftHit set calculator" loading="lazy" class="w-full max-w-xs rounded-[2.5rem] ring-1 ring-white/10 shadow-2xl shadow-indigo-500/20">
+      </div>
+    </div>
+
+    <div class="grid items-center gap-12 md:grid-cols-2">
+      <div class="md:order-2">
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Never miss a PR</h2>
+        <p class="mt-6 text-lg text-neutral-300">
+          Keep track of your journey. Every personal record sits right alongside the moment you hit it.
+        </p>
+      </div>
+      <div class="md:order-1 flex justify-center">
+        <img src="content/3.PNG" alt="LiftHit personal records" loading="lazy" class="w-full max-w-xs rounded-[2.5rem] ring-1 ring-white/10 shadow-2xl shadow-fuchsia-500/20">
+      </div>
+    </div>
+
+    <div class="grid items-center gap-12 md:grid-cols-2">
+      <div>
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Watch yourself get stronger</h2>
+        <p class="mt-6 text-lg text-neutral-300">
+          See your one-rep max history and training volume over the past weeks with clean, at-a-glance charts.
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <img src="content/4.png" alt="LiftHit progress charts" loading="lazy" class="w-full max-w-xs rounded-[2.5rem] ring-1 ring-white/10 shadow-2xl shadow-indigo-500/20">
+      </div>
+    </div>
+
+  </section>
+
+  <section class="border-y border-white/5 bg-white/[0.02]">
+    <div class="mx-auto max-w-3xl px-6 py-20 text-center">
+      <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">For athletes who'd rather lift than log.</h2>
+      <p class="mt-6 text-lg text-neutral-300">
+        LiftHit is a focused weight calculator for powerlifters and strength athletes. Enter your one-rep maxes for the big lifts, and LiftHit instantly calculates every percentage-based working set. Supports kg and lbs. Data stays on your device — no account required.
+      </p>
+    </div>
+  </section>
+
+  <section id="support" class="mx-auto max-w-3xl px-6 py-20 sm:py-28">
+    <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Support</h2>
+    <p class="mt-4 text-lg text-neutral-300">
+      Questions, bug reports, or feature ideas? Email
+      <a href="mailto:lifthit@sekava.dev" class="font-semibold text-fuchsia-300 underline-offset-4 hover:underline">lifthit@sekava.dev</a>
+      — every message is read.
+    </p>
+
+    <dl class="mt-12 space-y-4">
+      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-6">
+        <dt class="text-lg font-semibold">Where is my data stored?</dt>
+        <dd class="mt-2 text-neutral-300">On your device, with optional sync through your personal iCloud account. The developer never sees it. No account is needed to use LiftHit.</dd>
+      </div>
+      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-6">
+        <dt class="text-lg font-semibold">Which units do you support?</dt>
+        <dd class="mt-2 text-neutral-300">Both kilograms and pounds. You can also set the smallest plate available in the settings for precise bar load calculation.</dd>
+      </div>
+      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-6">
+        <dt class="text-lg font-semibold">What exercises are supported?</dt>
+        <dd class="mt-2 text-neutral-300">LiftHit comes with built-in support for the big three: bench, deadlift, and squat. And military press, because — shoulders. But you can add your own custom exercises too.</dd>
+      </div>
+      <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-6">
+        <dt class="text-lg font-semibold">Still need help?</dt>
+        <dd class="mt-2 text-neutral-300">
+          Email <a href="mailto:lifthit@sekava.dev" class="font-semibold text-fuchsia-300 underline-offset-4 hover:underline">lifthit@sekava.dev</a>. Include your iOS version and a short description of what happened — you'll get a reply.
+        </dd>
+      </div>
+    </dl>
+  </section>
+
+  <footer class="border-t border-white/5">
+    <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-10 text-sm text-neutral-400 sm:flex-row">
+      <p>© 2026 Josef Sekava · Praha, Czechia</p>
+      <a href="files/privacy_policy_en.html" class="hover:text-neutral-200">Privacy Policy</a>
+    </div>
+  </footer>
+
+</body>
+</html>
